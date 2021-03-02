@@ -1,12 +1,15 @@
 import React from 'react'
-import Head from 'next/head'
-
+import SEO from '@/components/SEO'
 
 const Home: React.FC = () => {
   return (
-    <Head>
-      <title>Template NextJs</title>
-    </Head>
+    <div id="app">
+      <SEO title="teste" image="boost.png" shouldExcludeTitleSuffix />
+      <main>
+        <h1>NextJs Template</h1>
+        <h3>By: @clys_man</h3>
+      </main>
+    </div>
   )
 }
 

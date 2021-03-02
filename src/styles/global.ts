@@ -12,4 +12,11 @@ export default createGlobalStyle`
     color: ${props => props.theme.colors.text};
     font: 400 16px Roboto, sans-serif;
   }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `
